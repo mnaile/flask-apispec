@@ -1,6 +1,8 @@
 from flask import Flask
 from extentions.extentions import db
 
+#"test ssh" 
+
 class MoviesModel(db.Model):
 
     id = db.Column(db.Integer(), primary_key = True)
